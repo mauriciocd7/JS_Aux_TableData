@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste JS</title>
+</head>
+<body>
+    <table id='minhaTabela'>
+        <thead>
+             <tr>
+                  <th>ID</th>
+                  <th>NroConhecimento</th>
+                  <th>Chave</th>
+                  <th>Verificado</th>
+             <tr>
+        </thead>
+        <tbody>
+             <tr class="naoselecionado">
+                  <td>01</td>
+                  <td>0001</td>
+                  <td>43220606367990000187570550001954251001954257</td>
+                  <td></td>
+             </tr>
+             <tr class="naoselecionado">
+                  <td>02</td>
+                  <td>0002</td>
+                  <td>10220606367990000187570550001954251001954258</td>
+                  <td></td>
+             </tr>
+             <tr class="naoselecionado">
+                  <td>03</td>
+                  <td>0003</td>
+                  <td>51220606367990000187570550001954251001954251</td>
+                  <td></td>
+             </tr>
+             <tr class="naoselecionado">
+                  <td>04</td>
+                  <td>0004</td>
+                  <td>43220606367990000187570550001954131001954132</td>
+                  <td></td>
+             </tr>
+             <tr class="naoselecionado">
+                  <td>05</td>
+                  <td>0005</td>
+                  <td>30120606367990000187570550001954251001954233</td>
+                  <td>x</td>
+             </tr>
+        </tbody>
+   </table>
+   <input type="text" id="chave"  onchange="verificaChave();"></input>
+   <button id="visualizarDados">Visualizar Dados</button>
+   
+
+   <script type="text/javascript" src="js.js"></script>
+</body>
+</html>
