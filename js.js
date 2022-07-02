@@ -68,7 +68,7 @@ btnVisualizar.addEventListener("click", function(){  //verifica quem tem classe 
     } else {
         alert('Dados não enviados');
     }
-}); */
+});*/
 
 
 
