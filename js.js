@@ -57,6 +57,22 @@ btnVisualizar.addEventListener("click", function(){  //verifica quem tem classe 
   }
   
   alert(dados);
+
+
+   //envia dados selecionados para o controller do php
+ 
+ /*  $.post("<?= $this->basePath('Manifesto/recebeConhecimentosSelecionados') ?>", { dado: dados }, function(data) {
+    if (data != null) {
+        alert('Dados enviados');
+        window.location = "recebeConhecimentosSelecionados?reg=" + dados;  //local do php que recebe os dados
+    } else {
+        alert('Dados não enviados');
+    }
+}); */
+
+
+
+
 });
 
 
